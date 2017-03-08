@@ -16,7 +16,7 @@ class cis::linuxcontrols::c0041 {
             ensure     => running,
             enable     => true,
             hasrestart => true,
-            status  => true,
+            hasstatus  => true,
           }
         }
         7: {
