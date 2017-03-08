@@ -5,7 +5,7 @@
 
 class cis::linuxcontrols::c0041 {
   case $::operatingsystem {
-    'RedHat', 'CentOS': {
+    'RedHat','CentOS': {
       case $::operatingsystemmajrelease {
         6: {
           package {'iptables':
