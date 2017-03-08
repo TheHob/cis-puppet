@@ -14,9 +14,9 @@ class cis::linuxcontrols::c0041 {
           }
           service {'iptables':
             ensure     => running,
-            enable     => "true",
-            hasrestart => "true",
-            hasstatus  => "true",
+            enable     => true,
+            hasrestart => true,
+            status  => true,
           }
         }
         7: {
